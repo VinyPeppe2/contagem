@@ -39,7 +39,7 @@ function start(){
                 pause = false;
                 cronometro.innerHTML = '00:00'
             }
-        }, 100)
+        }, 10)
     }
     bstart.hidden = true;
     breset.hidden = false;
