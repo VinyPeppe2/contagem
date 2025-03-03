@@ -1,0 +1,39 @@
+#cronometro{
+    color: red;
+    font-size: 50px;
+    font-family: "Arial Black", fantasy, Arial, Impact, Haettenschweiler;
+}
+
+#cronometro:hover{
+    transform: scale(1.25);
+}
+
+.cronometro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid rgb(22, 17, 17);
+    width: 400px;
+    border-radius: 20px;
+    background-color: #A1E3F9;
+}
+
+#title{
+    font-family: "Lilita One", serif;
+    font-size: 70px;
+    font-style: normal;
+}
+
+button:hover{
+    transform: scale(1.25);
+    background-color: black;
+    color: white;
+}
+
+button{
+    border-radius: 5px;
+    border: 1px solid black;
+}
