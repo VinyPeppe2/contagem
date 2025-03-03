@@ -5,9 +5,8 @@ let cronometro = document.getElementById('cronometro');
 let interval;
 let time = 300;
 let pause = false;
-let teste = document.getElementById('teste');
 let tocar= new Audio('/contagem/musics/sino.mp3');
-let i = parseInt(time)
+
 
 function start(){
     cronometro.innerHTML = '05:00';
