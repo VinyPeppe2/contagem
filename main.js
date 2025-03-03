@@ -6,7 +6,7 @@ let interval;
 let time = 300;
 let pause = false;
 let teste = document.getElementById('teste');
-let tocar= new Audio('/contagem/musics/sino.mp3');
+let tocar= new Audio('/musics/sino.mp3');
 let i = parseInt(time)
 
 function start(){
@@ -29,7 +29,7 @@ function start(){
             }
 
             if (time === 165){
-                tocar.src = '/contagem/musics/contagem.mp3';
+                tocar.src = '/musics/contagem.mp3';
                 tocar.load();
                 tocar.play();
             }
@@ -39,7 +39,7 @@ function start(){
                 pause = false;
                 cronometro.innerHTML = '00:00'
             }
-        }, 1000)
+        }, 100)
     }
     bstart.hidden = true;
     breset.hidden = false;
